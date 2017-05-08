@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172CAF0E1EC0A91200362AC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF0D1EC0A91200362AC7 /* AppDelegate.swift */; };
+		172CAF101EC0A91200362AC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF0F1EC0A91200362AC7 /* ViewController.swift */; };
+		172CAF131EC0A91200362AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF111EC0A91200362AC7 /* Main.storyboard */; };
+		172CAF151EC0A91200362AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF141EC0A91200362AC7 /* Assets.xcassets */; };
+		172CAF181EC0A91200362AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF161EC0A91200362AC7 /* LaunchScreen.storyboard */; };
+		172CAF231EC0A91200362AC7 /* WYmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF221EC0A91200362AC7 /* WYmusicTests.swift */; };
+		172CAF2E1EC0A91200362AC7 /* WYmusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF2D1EC0A91200362AC7 /* WYmusicUITests.swift */; };
+		172CAF681EC0B76200362AC7 /* AFSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF481EC0B76200362AC7 /* AFSoundItem.m */; };
+		172CAF691EC0B76200362AC7 /* AFSoundPlayback.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF4B1EC0B76200362AC7 /* AFSoundPlayback.m */; };
+		172CAF6A1EC0B76200362AC7 /* AFSoundQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF4D1EC0B76200362AC7 /* AFSoundQueue.m */; };
+		172CAF6B1EC0B76200362AC7 /* AFSoundRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF4F1EC0B76200362AC7 /* AFSoundRecord.m */; };
+		172CAF6C1EC0B76200362AC7 /* NSTimer+AFSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF511EC0B76200362AC7 /* NSTimer+AFSoundManager.m */; };
+		172CAF6D1EC0B76200362AC7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF521EC0B76200362AC7 /* LICENSE */; };
+		172CAF6E1EC0B76200362AC7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF531EC0B76200362AC7 /* README.md */; };
+		172CAF6F1EC0B76200362AC7 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF581EC0B76200362AC7 /* UIColor+KVNContrast.m */; };
+		172CAF701EC0B76200362AC7 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF5A1EC0B76200362AC7 /* UIImage+KVNEmpty.m */; };
+		172CAF711EC0B76200362AC7 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF5C1EC0B76200362AC7 /* UIImage+KVNImageEffects.m */; };
+		172CAF721EC0B76200362AC7 /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF5F1EC0B76200362AC7 /* KVNProgress.m */; };
+		172CAF731EC0B76200362AC7 /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF611EC0B76200362AC7 /* KVNProgressConfiguration.m */; };
+		172CAF741EC0B76200362AC7 /* KVNRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF631EC0B76200362AC7 /* KVNRotationViewController.m */; };
+		172CAF751EC0B76200362AC7 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF651EC0B76200362AC7 /* KVNProgressView.xib */; };
+		172CAF761EC0B76200362AC7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 172CAF661EC0B76200362AC7 /* LICENSE */; };
+		172CAF771EC0B76200362AC7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 172CAF671EC0B76200362AC7 /* README.md */; };
+		8969E73C4EF9CD70668481ED /* Pods_WYmusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F5CEF1FB3CF4F60A46751B /* Pods_WYmusic.framework */; };
+		B4AA99D7164DBC37A01EE61C /* Pods_WYmusic_WYmusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E961AAED383FF0FF47822E8 /* Pods_WYmusic_WYmusicTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172CAF1F1EC0A91200362AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172CAF021EC0A91200362AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172CAF091EC0A91200362AC7;
+			remoteInfo = WYmusic;
+		};
+		172CAF2A1EC0A91200362AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172CAF021EC0A91200362AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172CAF091EC0A91200362AC7;
+			remoteInfo = WYmusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172CAF0A1EC0A91200362AC7 /* WYmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172CAF0D1EC0A91200362AC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172CAF0F1EC0A91200362AC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172CAF121EC0A91200362AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		172CAF141EC0A91200362AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172CAF171EC0A91200362AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		172CAF191EC0A91200362AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172CAF1E1EC0A91200362AC7 /* WYmusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYmusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172CAF221EC0A91200362AC7 /* WYmusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYmusicTests.swift; sourceTree = "<group>"; };
+		172CAF241EC0A91200362AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172CAF291EC0A91200362AC7 /* WYmusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYmusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172CAF2D1EC0A91200362AC7 /* WYmusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYmusicUITests.swift; sourceTree = "<group>"; };
+		172CAF2F1EC0A91200362AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172CAF3B1EC0B0E800362AC7 /* WYmusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYmusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		172CAF471EC0B76200362AC7 /* AFSoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundItem.h; sourceTree = "<group>"; };
+		172CAF481EC0B76200362AC7 /* AFSoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundItem.m; sourceTree = "<group>"; };
+		172CAF491EC0B76200362AC7 /* AFSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundManager.h; sourceTree = "<group>"; };
+		172CAF4A1EC0B76200362AC7 /* AFSoundPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundPlayback.h; sourceTree = "<group>"; };
+		172CAF4B1EC0B76200362AC7 /* AFSoundPlayback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundPlayback.m; sourceTree = "<group>"; };
+		172CAF4C1EC0B76200362AC7 /* AFSoundQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundQueue.h; sourceTree = "<group>"; };
+		172CAF4D1EC0B76200362AC7 /* AFSoundQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundQueue.m; sourceTree = "<group>"; };
+		172CAF4E1EC0B76200362AC7 /* AFSoundRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSoundRecord.h; sourceTree = "<group>"; };
+		172CAF4F1EC0B76200362AC7 /* AFSoundRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSoundRecord.m; sourceTree = "<group>"; };
+		172CAF501EC0B76200362AC7 /* NSTimer+AFSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+AFSoundManager.h"; sourceTree = "<group>"; };
+		172CAF511EC0B76200362AC7 /* NSTimer+AFSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+AFSoundManager.m"; sourceTree = "<group>"; };
+		172CAF521EC0B76200362AC7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		172CAF531EC0B76200362AC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		172CAF571EC0B76200362AC7 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		172CAF581EC0B76200362AC7 /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		172CAF591EC0B76200362AC7 /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		172CAF5A1EC0B76200362AC7 /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		172CAF5B1EC0B76200362AC7 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		172CAF5C1EC0B76200362AC7 /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
+		172CAF5E1EC0B76200362AC7 /* KVNProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNProgress.h; sourceTree = "<group>"; };
+		172CAF5F1EC0B76200362AC7 /* KVNProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNProgress.m; sourceTree = "<group>"; };
+		172CAF601EC0B76200362AC7 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		172CAF611EC0B76200362AC7 /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNProgressConfiguration.m; sourceTree = "<group>"; };
+		172CAF621EC0B76200362AC7 /* KVNRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNRotationViewController.h; sourceTree = "<group>"; };
+		172CAF631EC0B76200362AC7 /* KVNRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNRotationViewController.m; sourceTree = "<group>"; };
+		172CAF651EC0B76200362AC7 /* KVNProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVNProgressView.xib; sourceTree = "<group>"; };
+		172CAF661EC0B76200362AC7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		172CAF671EC0B76200362AC7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D604C12FB3484F4C043C8CD /* Pods-WYmusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYmusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYmusic/Pods-WYmusic.release.xcconfig"; sourceTree = "<group>"; };
+		3123A11B34E3077E50C5F3BD /* Pods-WYmusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYmusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYmusic/Pods-WYmusic.debug.xcconfig"; sourceTree = "<group>"; };
+		4E961AAED383FF0FF47822E8 /* Pods_WYmusic_WYmusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYmusic_WYmusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		875F48BA5A37DE50CACDF3F3 /* Pods-WYmusic-WYmusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYmusic-WYmusicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYmusic-WYmusicTests/Pods-WYmusic-WYmusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1EA040C86C04E777CAB35F /* Pods-WYmusic-WYmusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYmusic-WYmusicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYmusic-WYmusicTests/Pods-WYmusic-WYmusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7F5CEF1FB3CF4F60A46751B /* Pods_WYmusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYmusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172CAF071EC0A91200362AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8969E73C4EF9CD70668481ED /* Pods_WYmusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF1B1EC0A91200362AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AA99D7164DBC37A01EE61C /* Pods_WYmusic_WYmusicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF261EC0A91200362AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172CAF011EC0A91200362AC7 = {
+			isa = PBXGroup;
+			children = (
+				172CAF0C1EC0A91200362AC7 /* WYmusic */,
+				172CAF211EC0A91200362AC7 /* WYmusicTests */,
+				172CAF2C1EC0A91200362AC7 /* WYmusicUITests */,
+				172CAF0B1EC0A91200362AC7 /* Products */,
+				3C54B2A95233E026323A629E /* Pods */,
+				67CF5FED3B0C3701D0119DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		172CAF0B1EC0A91200362AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF0A1EC0A91200362AC7 /* WYmusic.app */,
+				172CAF1E1EC0A91200362AC7 /* WYmusicTests.xctest */,
+				172CAF291EC0A91200362AC7 /* WYmusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172CAF0C1EC0A91200362AC7 /* WYmusic */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF0D1EC0A91200362AC7 /* AppDelegate.swift */,
+				172CAF0F1EC0A91200362AC7 /* ViewController.swift */,
+				172CAF111EC0A91200362AC7 /* Main.storyboard */,
+				172CAF141EC0A91200362AC7 /* Assets.xcassets */,
+				172CAF161EC0A91200362AC7 /* LaunchScreen.storyboard */,
+				172CAF191EC0A91200362AC7 /* Info.plist */,
+				172CAF3B1EC0B0E800362AC7 /* WYmusic-Bridging-Header.h */,
+				172CAF451EC0B76200362AC7 /* AFSoundManager */,
+				172CAF541EC0B76200362AC7 /* KVNProgress */,
+			);
+			path = WYmusic;
+			sourceTree = "<group>";
+		};
+		172CAF211EC0A91200362AC7 /* WYmusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF221EC0A91200362AC7 /* WYmusicTests.swift */,
+				172CAF241EC0A91200362AC7 /* Info.plist */,
+			);
+			path = WYmusicTests;
+			sourceTree = "<group>";
+		};
+		172CAF2C1EC0A91200362AC7 /* WYmusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF2D1EC0A91200362AC7 /* WYmusicUITests.swift */,
+				172CAF2F1EC0A91200362AC7 /* Info.plist */,
+			);
+			path = WYmusicUITests;
+			sourceTree = "<group>";
+		};
+		172CAF451EC0B76200362AC7 /* AFSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF461EC0B76200362AC7 /* Classes */,
+				172CAF521EC0B76200362AC7 /* LICENSE */,
+				172CAF531EC0B76200362AC7 /* README.md */,
+			);
+			path = AFSoundManager;
+			sourceTree = "<group>";
+		};
+		172CAF461EC0B76200362AC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF471EC0B76200362AC7 /* AFSoundItem.h */,
+				172CAF481EC0B76200362AC7 /* AFSoundItem.m */,
+				172CAF491EC0B76200362AC7 /* AFSoundManager.h */,
+				172CAF4A1EC0B76200362AC7 /* AFSoundPlayback.h */,
+				172CAF4B1EC0B76200362AC7 /* AFSoundPlayback.m */,
+				172CAF4C1EC0B76200362AC7 /* AFSoundQueue.h */,
+				172CAF4D1EC0B76200362AC7 /* AFSoundQueue.m */,
+				172CAF4E1EC0B76200362AC7 /* AFSoundRecord.h */,
+				172CAF4F1EC0B76200362AC7 /* AFSoundRecord.m */,
+				172CAF501EC0B76200362AC7 /* NSTimer+AFSoundManager.h */,
+				172CAF511EC0B76200362AC7 /* NSTimer+AFSoundManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		172CAF541EC0B76200362AC7 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF551EC0B76200362AC7 /* KVNProgress */,
+				172CAF661EC0B76200362AC7 /* LICENSE */,
+				172CAF671EC0B76200362AC7 /* README.md */,
+			);
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		172CAF551EC0B76200362AC7 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF561EC0B76200362AC7 /* Categories */,
+				172CAF5D1EC0B76200362AC7 /* Classes */,
+				172CAF641EC0B76200362AC7 /* Resources */,
+			);
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		172CAF561EC0B76200362AC7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF571EC0B76200362AC7 /* UIColor+KVNContrast.h */,
+				172CAF581EC0B76200362AC7 /* UIColor+KVNContrast.m */,
+				172CAF591EC0B76200362AC7 /* UIImage+KVNEmpty.h */,
+				172CAF5A1EC0B76200362AC7 /* UIImage+KVNEmpty.m */,
+				172CAF5B1EC0B76200362AC7 /* UIImage+KVNImageEffects.h */,
+				172CAF5C1EC0B76200362AC7 /* UIImage+KVNImageEffects.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		172CAF5D1EC0B76200362AC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF5E1EC0B76200362AC7 /* KVNProgress.h */,
+				172CAF5F1EC0B76200362AC7 /* KVNProgress.m */,
+				172CAF601EC0B76200362AC7 /* KVNProgressConfiguration.h */,
+				172CAF611EC0B76200362AC7 /* KVNProgressConfiguration.m */,
+				172CAF621EC0B76200362AC7 /* KVNRotationViewController.h */,
+				172CAF631EC0B76200362AC7 /* KVNRotationViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		172CAF641EC0B76200362AC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				172CAF651EC0B76200362AC7 /* KVNProgressView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C54B2A95233E026323A629E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3123A11B34E3077E50C5F3BD /* Pods-WYmusic.debug.xcconfig */,
+				2D604C12FB3484F4C043C8CD /* Pods-WYmusic.release.xcconfig */,
+				875F48BA5A37DE50CACDF3F3 /* Pods-WYmusic-WYmusicTests.debug.xcconfig */,
+				8D1EA040C86C04E777CAB35F /* Pods-WYmusic-WYmusicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67CF5FED3B0C3701D0119DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5CEF1FB3CF4F60A46751B /* Pods_WYmusic.framework */,
+				4E961AAED383FF0FF47822E8 /* Pods_WYmusic_WYmusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172CAF091EC0A91200362AC7 /* WYmusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172CAF321EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusic" */;
+			buildPhases = (
+				C708C4F6DEE5ECCEDC7B5F46 /* [CP] Check Pods Manifest.lock */,
+				172CAF061EC0A91200362AC7 /* Sources */,
+				172CAF071EC0A91200362AC7 /* Frameworks */,
+				172CAF081EC0A91200362AC7 /* Resources */,
+				19D82C4AD7752CF5EFBB5819 /* [CP] Embed Pods Frameworks */,
+				E3C3931FF867FF2426FECF7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYmusic;
+			productName = WYmusic;
+			productReference = 172CAF0A1EC0A91200362AC7 /* WYmusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172CAF1D1EC0A91200362AC7 /* WYmusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172CAF351EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusicTests" */;
+			buildPhases = (
+				8D9F5A28001389FC96B548E7 /* [CP] Check Pods Manifest.lock */,
+				172CAF1A1EC0A91200362AC7 /* Sources */,
+				172CAF1B1EC0A91200362AC7 /* Frameworks */,
+				172CAF1C1EC0A91200362AC7 /* Resources */,
+				9D7540653BD1F435C294EBE0 /* [CP] Embed Pods Frameworks */,
+				D0DA1BFA11F32E0A4DA31C5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172CAF201EC0A91200362AC7 /* PBXTargetDependency */,
+			);
+			name = WYmusicTests;
+			productName = WYmusicTests;
+			productReference = 172CAF1E1EC0A91200362AC7 /* WYmusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172CAF281EC0A91200362AC7 /* WYmusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172CAF381EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusicUITests" */;
+			buildPhases = (
+				172CAF251EC0A91200362AC7 /* Sources */,
+				172CAF261EC0A91200362AC7 /* Frameworks */,
+				172CAF271EC0A91200362AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172CAF2B1EC0A91200362AC7 /* PBXTargetDependency */,
+			);
+			name = WYmusicUITests;
+			productName = WYmusicUITests;
+			productReference = 172CAF291EC0A91200362AC7 /* WYmusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172CAF021EC0A91200362AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XLJ;
+				TargetAttributes = {
+					172CAF091EC0A91200362AC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 524NVVN945;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					172CAF1D1EC0A91200362AC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 172CAF091EC0A91200362AC7;
+					};
+					172CAF281EC0A91200362AC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 172CAF091EC0A91200362AC7;
+					};
+				};
+			};
+			buildConfigurationList = 172CAF051EC0A91200362AC7 /* Build configuration list for PBXProject "WYmusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172CAF011EC0A91200362AC7;
+			productRefGroup = 172CAF0B1EC0A91200362AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172CAF091EC0A91200362AC7 /* WYmusic */,
+				172CAF1D1EC0A91200362AC7 /* WYmusicTests */,
+				172CAF281EC0A91200362AC7 /* WYmusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172CAF081EC0A91200362AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172CAF761EC0B76200362AC7 /* LICENSE in Resources */,
+				172CAF181EC0A91200362AC7 /* LaunchScreen.storyboard in Resources */,
+				172CAF751EC0B76200362AC7 /* KVNProgressView.xib in Resources */,
+				172CAF151EC0A91200362AC7 /* Assets.xcassets in Resources */,
+				172CAF6D1EC0B76200362AC7 /* LICENSE in Resources */,
+				172CAF131EC0A91200362AC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF1C1EC0A91200362AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF271EC0A91200362AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D82C4AD7752CF5EFBB5819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYmusic/Pods-WYmusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9F5A28001389FC96B548E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7540653BD1F435C294EBE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYmusic-WYmusicTests/Pods-WYmusic-WYmusicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C708C4F6DEE5ECCEDC7B5F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0DA1BFA11F32E0A4DA31C5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYmusic-WYmusicTests/Pods-WYmusic-WYmusicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C3931FF867FF2426FECF7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYmusic/Pods-WYmusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172CAF061EC0A91200362AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172CAF6B1EC0B76200362AC7 /* AFSoundRecord.m in Sources */,
+				172CAF101EC0A91200362AC7 /* ViewController.swift in Sources */,
+				172CAF6C1EC0B76200362AC7 /* NSTimer+AFSoundManager.m in Sources */,
+				172CAF0E1EC0A91200362AC7 /* AppDelegate.swift in Sources */,
+				172CAF6F1EC0B76200362AC7 /* UIColor+KVNContrast.m in Sources */,
+				172CAF771EC0B76200362AC7 /* README.md in Sources */,
+				172CAF711EC0B76200362AC7 /* UIImage+KVNImageEffects.m in Sources */,
+				172CAF681EC0B76200362AC7 /* AFSoundItem.m in Sources */,
+				172CAF721EC0B76200362AC7 /* KVNProgress.m in Sources */,
+				172CAF731EC0B76200362AC7 /* KVNProgressConfiguration.m in Sources */,
+				172CAF701EC0B76200362AC7 /* UIImage+KVNEmpty.m in Sources */,
+				172CAF6E1EC0B76200362AC7 /* README.md in Sources */,
+				172CAF6A1EC0B76200362AC7 /* AFSoundQueue.m in Sources */,
+				172CAF741EC0B76200362AC7 /* KVNRotationViewController.m in Sources */,
+				172CAF691EC0B76200362AC7 /* AFSoundPlayback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF1A1EC0A91200362AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172CAF231EC0A91200362AC7 /* WYmusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172CAF251EC0A91200362AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172CAF2E1EC0A91200362AC7 /* WYmusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172CAF201EC0A91200362AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172CAF091EC0A91200362AC7 /* WYmusic */;
+			targetProxy = 172CAF1F1EC0A91200362AC7 /* PBXContainerItemProxy */;
+		};
+		172CAF2B1EC0A91200362AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172CAF091EC0A91200362AC7 /* WYmusic */;
+			targetProxy = 172CAF2A1EC0A91200362AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172CAF111EC0A91200362AC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172CAF121EC0A91200362AC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		172CAF161EC0A91200362AC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172CAF171EC0A91200362AC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172CAF301EC0A91200362AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172CAF311EC0A91200362AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172CAF331EC0A91200362AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3123A11B34E3077E50C5F3BD /* Pods-WYmusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 524NVVN945;
+				INFOPLIST_FILE = WYmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WYmusic/WYmusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		172CAF341EC0A91200362AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D604C12FB3484F4C043C8CD /* Pods-WYmusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 524NVVN945;
+				INFOPLIST_FILE = WYmusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WYmusic/WYmusic-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		172CAF361EC0A91200362AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875F48BA5A37DE50CACDF3F3 /* Pods-WYmusic-WYmusicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYmusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYmusic.app/WYmusic";
+			};
+			name = Debug;
+		};
+		172CAF371EC0A91200362AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1EA040C86C04E777CAB35F /* Pods-WYmusic-WYmusicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYmusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYmusic.app/WYmusic";
+			};
+			name = Release;
+		};
+		172CAF391EC0A91200362AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WYmusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYmusic;
+			};
+			name = Debug;
+		};
+		172CAF3A1EC0A91200362AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WYmusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.WY.WYmusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYmusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172CAF051EC0A91200362AC7 /* Build configuration list for PBXProject "WYmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172CAF301EC0A91200362AC7 /* Debug */,
+				172CAF311EC0A91200362AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172CAF321EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172CAF331EC0A91200362AC7 /* Debug */,
+				172CAF341EC0A91200362AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172CAF351EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172CAF361EC0A91200362AC7 /* Debug */,
+				172CAF371EC0A91200362AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172CAF381EC0A91200362AC7 /* Build configuration list for PBXNativeTarget "WYmusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172CAF391EC0A91200362AC7 /* Debug */,
+				172CAF3A1EC0A91200362AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172CAF021EC0A91200362AC7 /* Project object */;
+}
